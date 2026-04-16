@@ -5,11 +5,17 @@ Count your GitHub stars, excluding the ones you gave yourself.
 ## Usage
 
 ```bash
-# Your own repos
+# Your own repos (top 50)
 ./real-stars.sh
 
 # Someone else's repos
 ./real-stars.sh <username>
+
+# Limit number of repos (sorted by stars)
+./real-stars.sh <username> <limit>
+
+# Examples
+./real-stars.sh torvalds 10    # top 10 repos only
 ```
 
 ## Requirements
