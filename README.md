@@ -1,6 +1,6 @@
 # github-real-stars
 
-Count your GitHub stars, excluding the ones you gave yourself.
+Count your stars, excluding the ones you gave yourself.
 
 ## Usage
 
